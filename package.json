@@ -1,0 +1,15 @@
+{
+  "name": "fiver-br-detailer",
+  "version": "1.0.0",
+  "description": "Show client data in buyers requests, fiverr",
+  "main": "content_script.js",
+  "author": "CharukaHS",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start:firefox": "web-ext run --firefox=firefoxdeveloperedition --ignore-files /node_modules"
+  },
+  "devDependencies": {
+    "web-ext": "^6.2.0"
+  }
+}
