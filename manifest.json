@@ -11,8 +11,9 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["content_script.js"]
+      "matches": ["*://*.fiverr.com/users/*/requests"],
+      "js": ["content_script.js"],
+      "run_at": "document_end"
     }
   ],
   "browser_action": {
